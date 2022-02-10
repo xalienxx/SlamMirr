@@ -56,7 +56,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
         sendMarkup(start_string, context.bot, update, reply_markup)
     else:
         sendMarkup(
-            'Oops! not a Authorized user.🙂\nPlease Contact <b>@HunterKiller_GT</b>.',
+            'Oops! not a Authorized user.🙂\nPM only works for Owner.</b>.',
             context.bot,
             update,
             reply_markup,
